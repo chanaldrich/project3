@@ -1,5 +1,5 @@
 上傳
-git init只有在沒有東西時才用
+git init只有在
 git add .
 git commit -m "填寫此版本資訊"
 git push origin <數據庫名稱，預設為 origin>
