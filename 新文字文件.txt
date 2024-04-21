@@ -1,3 +1,4 @@
+上傳
 git init
 git add .
 git commit -m "填寫此版本資訊"
