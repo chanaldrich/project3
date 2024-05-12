@@ -132,30 +132,61 @@
 # total = amount * (1+ (rate/100)) ** time
 # print ("total :",total)
 # -------------------------------------------------------------------------------
+# for loop
 
+# for x in range(1, 11):
+#     print(x)
 
+# for x in reversed(range(1, 11)):
+#     print(x)
+# print("happy new year!!")
 
+# credit_card ="1234-5678-9012-3456"
+# for x in credit_card:
+#     if x == "9":
+#         continue
+#         break
+#     else:
+#         print(x)
 
+# my_dict = {"a": 1, "b": 2, "c": 3}
+# for x in my_dict:
+#     print(x)
+# for key, value in my_dict.items():
+#     print("key:", key)
+#     print("value:", value)
+# -------------------------------------------------------------------------------
+# nested loop
 
+# for x in range(1, 10):
+#     print(x, end=" ")
 
+# for y in range(5):
+#     for x in range(1, 10):
+#         print(x, end=" ")
+#     print()
 
+# rows = int (input("Please enter the number of rows:"))
+# cols = int (input("please enter the number of cols:"))
+# symbol = input("please enter the symbol:")
 
+# for i in range(rows):
+#     for j in range (cols):
+#         print(symbol, end=" ")
+#     print()
+# -------------------------------------------------------------------------------
+# stopwatch
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# import time
+# my_time= int(input("please enter seconds:"))
+# for x in range(my_time, 0, -1):
+#     seconds = x % 60
+#     minutes = x // 60 % 60
+#     print(f"{minutes:02}:{seconds:02}")
+#     time.sleep(1)
+# print("the time is up!")
+# -------------------------------------------------------------------------------
+# 
 
 
 
