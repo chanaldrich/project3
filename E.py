@@ -186,41 +186,59 @@
 #     time.sleep(1)
 # print("the time is up!")
 # -------------------------------------------------------------------------------
+# list,sets,tuple
+
+# list
+
+# fruits=["apple","orange","banana","cocoNUT"]
+
+# print(fruits[1])
+
+# for f in fruits:
+#     print(f)
+
+# fruits.append("Guava")
+# print(fruits)
+
+# fruits.remove("cocoNUT")
+# print(fruits)
+
+# print(fruits.index("banana"))
+# fruits.append("apple")
+# fruits.append("apple")
+# print(fruits)
+
+# print(fruits.count("apple"))
+
+# print(fruits)
+# fruits.reverse()
+# print(fruits)
+# ----------------
+# set
+
+# fruit_set ={"🍎","🍊","🍌"}
+# fruit_set.add("🍎")
+# fruit_set.add("🍉")
+# for fruit in fruit_set:
+#     print(fruit, end=" ")
+# if "🍎" in fruit_set:
+#     print("an apple.")
+# if "🍉" in fruit_set:
+#     print("a watermelon.")
+# else:
+#     print("no watermelon...=(")
+# ----------------
+# tuple
+
+# fruits_tuple = ("🍎","🍊","🍌","🍎")
+# result = fruits_tuple.count("🍎")
+# print(result)
+# result = fruits_tuple.index("🍊")
+# print(result)
+
+# fruits_tuple.add("🍎") #can't use
+# -------------------------------------------------------------------------------
 # 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
