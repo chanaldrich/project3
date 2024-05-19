@@ -238,22 +238,27 @@
 
 # fruits_tuple.add("🍎") #can't use
 # -------------------------------------------------------------------------------
+# shopping cart program (list, set, tuple)
+
+# goods = []
+# prices = []
+
+# while True:
+#     good = input("please enter things you want to buy :")
+#     if good.lower() == "q":
+#         break
+#     price = float(input(f"please enter {good}'s price : "))
+#     goods.append(good)
+#     prices.append(price)
+# print("Product list:", goods)
+# print("price list :", prices)
+# for index, good in enumerate(goods):
+#     print(f"Item {index + 1} is {good},price:{prices[index]:.2f}")
+
+# total = sum(prices)
+# print(f"total cost: ${total}")
+# -------------------------------------------------------------------------------
 # 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
