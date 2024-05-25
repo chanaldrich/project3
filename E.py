@@ -258,33 +258,58 @@
 # total = sum(prices)
 # print(f"total cost: ${total}")
 # -------------------------------------------------------------------------------
+# Dictionary
+
+# capital = {
+#     "United States": "Washington DC",
+#     "Japan": "Tokyo",
+#     "France": "Paris",
+#     "Russia": "Moscow"
+# }
+
+# print(capital.get("Japan"))
+# print(capital.get("France"))
+
+# capital.update({"Gemany": "Berlin"})
+# print(capital)
+
+# capital.pop("United States")
+# print(capital)
+
+# print(capital.values())
+
+# print(capital.items())
+# -------------------------------------------------------------------------------
+# vending machine program
+
+# menu={
+#     "pizza":100,
+#     "popcorn":50,
+#     "franch fries":30,
+#     "potato chips":40,
+#     "soft breadsticks":50,
+#     "soda":40,
+#     "lemonade":50
+# }
+# print("menu")
+# print("----------")
+# cart = []
+# total = 0
+# for item, price in menu.items():
+#     print(f"{item}:{price}")
+# while True:
+#     food=input("please enter a food that's in the menu(enter q to quit):")
+#     if food == "q":
+#         break
+#     elif menu.get(food) is None:
+#         print(f"there's no {food} in this menu")
+#     else:
+#         cart.append(food)
+#         total += menu.get(food)
+#         print(food, end=" ")
+# print(f"the total is: {total}")
+# -------------------------------------------------------------------------------
 # 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
