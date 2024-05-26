@@ -309,35 +309,40 @@
 #         print(food, end=" ")
 # print(f"the total is: {total}")
 # -------------------------------------------------------------------------------
-# 
+# Number guessing game (using random)
 
+# import random
 
+# print(random.randint(1,10))
 
+# print(random.random())
 
+# options = ["rock","paper","scissors"]
+# rand_option = random.choice(options)
+# print("the computer choose:", rand_option)
 
+# cards=["2","3","4","5","7","8","9","10","A","B","C","D"]
+# random.shuffle(cards)
+# print(cards)
+#-------------
+# game :
 
+# low=1 
+# high=10000
+# num=random.randint(low,high)
+# guesses=0
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# while True:
+#     guess = int(input(f"please enter a num between {low} ~ {high}:"))
+#     guesses += 1
+#     if guess < num :
+#         print("guessed number is too low")
+#     elif guess > num:
+#         print("guessed number is too high")
+#     else:
+#         print(f"Congratulations! the number is {num}!")
+#         print (f"you guessed {guesses} times.")
+#         break
 
 
 
