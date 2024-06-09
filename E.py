@@ -410,37 +410,56 @@
 # highest :47 
 # lowest:22
 # -------------------------------------------------------------------------------
+# function (program)
+
+# def say_hello():
+#     print("hello world!")
+# say_hello()
+# say_hello()
+# say_hello()
+
+# def greeting(name):
+#     print(f"greetings! {name}!")
+# greeting("aldrich")
+
+# def add(x, y):
+#     return x + y
+
+# result=add(3, 5)
+# print(result)
+
+# def sub(x, y):
+#     return x - y
+
+# result2=sub(5, 2)
+# print(result2)
+
+# def mul(x, y):
+#     return x * y
+
+# result3=mul(2, 7)
+# print(result3)
+
+# def devide(x, y):
+#     return x / y
+
+# result4=devide(15, 3)
+# print(result4)
+
+# def creat_name(first, last):
+#     first = first.capitalize()
+#     last = last.capitalize()
+#     return first + " " + last
+# print (creat_name("chan","aldrich"))
+# -------------------------------------------------------------------------------
+# function(number)
+
+# def greet(name, greeting="hello"):
+#     print(f"{greeting},{name}")
+# greet("aldrich", "hi")
+# greet("chan")
+# -------------------------------------------------------------------------------
 # 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
