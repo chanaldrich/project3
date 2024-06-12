@@ -459,22 +459,37 @@
 # greet("aldrich", "hi")
 # greet("chan")
 # -------------------------------------------------------------------------------
-# 
+# rock paper scissors game
 
+#  these code rn in not done for good, so can't use it
+#  all of these are weird,and idk how to fix it,maybe when i am better at python i will fix this
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+# import random
+# player=None
+# computer=None
+# options=("rock","paper","scissors")
+# running=True
+# while running:
+#     player = input("enter rock,paper or scissors:")
+#     while player not in options:
+#         input("can't put that.enter rock,paper or scissors:")
+#     computer= random.choice(options)
+#     print (f"player:{player},computer:{computer}")
+#     if player == computer:
+#        print ("tie") 
+#     elif player == "scissors"and computer == "paper":
+#         print("player wins")
+#     elif player == "rock"and computer == "scissors":
+#         print("player wins")
+#     elif player == "paper"and computer == "rock":
+#         print("player wins")
+#     else:
+#         print("computer won")
+#     play_again=input("play again?(y/n)").lower()
+#     if not play_again == "y":
+#         running=False
+    
+# print("thx for playing")
 
 
 
