@@ -490,28 +490,40 @@
 #         running=False
     
 # print("thx for playing")
+# -------------------------------------------------------------------------------
+# Keyword arguments
 
+# def hello(greeting, title, first_name, last_name):
+#     print(f"{greeting},{title}, {first_name}, {last_name}")
 
+# hello("hi!", "Mr", "Chan", "aldirch")
+# hello(greeting="hi!",title="Mr",first_name="Chan",last_name="aldirch")
 
+# def get_phone(country_code, area_code, first, last):
+#     return f"{country_code}-{area_code}-{first}-{last}"
+# str=get_phone(country_code="123",area_code="45",first="6789",last="0123" )
+# print(str)
+# -------------------------------------------------------------------------------
+# Args and Kwargs 
 
+# def add(a, b):
+#     return a+b
+# print(add(1,2))
 
+# def add(*args):
+#     total = 0
+#     for arg in args:
+#         print(f"arg: {arg}")
+#         total+=arg
+#     return total
+# print(add(1,2,3))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# def print_info(**kwargs):
+#     for key, value in kwargs.items():
+#         print(f"key: {key}, value: {value}")
+# print_info(name="Aldrich", age="12", occupation="none")
+# -------------------------------------------------------------------------------
+#
 
 
 
