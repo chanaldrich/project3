@@ -523,37 +523,64 @@
 #         print(f"key: {key}, value: {value}")
 # print_info(name="Aldrich", age="12", occupation="none")
 # -------------------------------------------------------------------------------
-#
+# Modules
 
+# import my_module as m
+# print(m.area(5))
 
+# import math as m
+# from math import pi
+# print(pi)
+# help(math)
 
+# print(m.pi)
+# print(m.pow(3,2))
+# print(m.pow(3,3))
 
+# num = 20.6
+# print(m.ceil(num))
+# print(m.floor(num))
+# print(round(num))
+# -------------------------------------------------------------------------------
+# Scope
 
+# a = 10
+# def function_one():
+#     a=1
+#     print("a=",a)
+#     def function_two():
+#         b=2
+#         print("b=",b)    
+#         print("a=",a)
+#     function_two()
+# function_one()
 
+# from math import e
+# print(e)
+# print (round(e))
 
+# def function_one():
+#     print(e)
+# function_one
+# -------------------------------------------------------------------------------
+# Exception handling 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# try:
+#     x = int(input("please enter a integer:"))
+#     y = int(input("please enter another integer:"))
+#     print(x/y)
+# except ValueError:
+#     print("please enter a integer")
+# except ZeroDivisionError:
+#     print("The divisor cannot be zero")
+# except (ValueError,ZeroDivisionError):
+#     print("ERROR,please put another one!")
+# else:
+#     print("else")
+# finally:
+#     print("will always do the things even tho they are not right")
+# -------------------------------------------------------------------------------
+# 
 
 
 
