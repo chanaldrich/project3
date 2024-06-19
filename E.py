@@ -580,17 +580,20 @@
 # finally:
 #     print("will always do the things even tho they are not right")
 # -------------------------------------------------------------------------------
+# Check if the file exists
+
+# import os
+
+# str = r"c:\Users\HAPU\Desktop\project3\test.txt"
+# print(str)
+# if os.path.isfile(str):
+#     print("the path is file.")
+# elif os.path.isdir(str):
+#     print("the pathis dir.")
+# else:
+#     print("other")
+# -------------------------------------------------------------------------------
 # 
-
-
-
-
-
-
-
-
-
-
 
 
 
