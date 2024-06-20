@@ -593,13 +593,17 @@
 # else:
 #     print("other")
 # -------------------------------------------------------------------------------
+# Read file
+
+# i used other file cuz i cant do this one(c:\Users\HAPU\Desktop\project3)
+# str=r"c:\Users\HAPU\Desktop\hi\hi.txt"
+# try:
+#     with open(str) as file:
+#         print(file.read())
+# except FileNotFoundError:
+#     print("file is not real")
+# -------------------------------------------------------------------------------
 # 
-
-
-
-
-
-
 
 
 
