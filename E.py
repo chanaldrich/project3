@@ -603,14 +603,16 @@
 # except FileNotFoundError:
 #     print("file is not real")
 # -------------------------------------------------------------------------------
+# Copy files
+
+# str=r'c:\Users\HAPU\Desktop\project3\test.txt'
+
+# text="hi!\nhope you have a nice day!"
+
+# with open(str,"w") as file:
+#     file.write('\n go go go')
+# -------------------------------------------------------------------------------
 # 
-
-
-
-
-
-
-
 
 
 
