@@ -603,7 +603,7 @@
 # except FileNotFoundError:
 #     print("file is not real")
 # -------------------------------------------------------------------------------
-# Copy files
+# write file
 
 # str=r'c:\Users\HAPU\Desktop\project3\test.txt'
 
@@ -612,12 +612,15 @@
 # with open(str,"w") as file:
 #     file.write('\n go go go')
 # -------------------------------------------------------------------------------
+# Copy files
+
+# import shutil
+# w= r"c:\Users\HAPU\Desktop\project3"
+# source =f"{w}/source_file.txt"
+# destination= f"{w}/destination_file.txt"
+# shutil.copyfile(source, destination)
+# -------------------------------------------------------------------------------
 # 
-
-
-
-
-
 
 
 
