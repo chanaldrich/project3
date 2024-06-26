@@ -634,18 +634,33 @@
 # import send2trash
 # send2trash.send2trashf(fr"{path}\test.txt")
 # -------------------------------------------------------------------------------
+# object-oriented programming
+
+# class Car:
+#     def __init__(self, make, model, year, color):
+#         self.make=make
+#         self.model=model
+#         self.year=year
+#         self.color=color
+#     def drive(self):
+#         print(self.model + " driving")
+
+#     def stop(self):
+#         print(self.model + " stoped")
+
+
+# Car1=Car("Toyota", "Altis", 2021, "blue")
+# Car2=Car("Ford", "Kuga", 2020, "white")
+
+# Car1.drive()
+# Car2.drive()
+# Car2.stop()
+# print(Car2.self)
+# print(Car2.model)
+# print(Car2.year)
+# print(Car2.color)
+# -------------------------------------------------------------------------------
 # 
-
-
-
-
-
-
-
-
-
-
-
 
 
 
