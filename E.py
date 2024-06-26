@@ -620,25 +620,21 @@
 # destination= f"{w}/destination_file.txt"
 # shutil.copyfile(source, destination)
 # -------------------------------------------------------------------------------
+# Delete files
+# import os
+# import shutil
+# path =r"c:\Users\HAPU\Desktop\project3"
+
+# os.remove(f"{path}/test.txt")
+ 
+# os.rmdir(f"{path}/Test Folder")
+
+# shutil.rmtree() 
+
+# import send2trash
+# send2trash.send2trashf(fr"{path}\test.txt")
+# -------------------------------------------------------------------------------
 # 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
