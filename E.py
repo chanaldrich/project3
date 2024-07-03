@@ -678,27 +678,40 @@
 # Car2.wheels =2
 # print(Car2.wheels)
 # -------------------------------------------------------------------------------
+# Overriding
+
+# class Animal:
+#     aLive = True
+#     def eat(self):
+#         print("this animal is eating something")
+#     def sleep(self):
+#         print("this animal is sleeping")
+
+# class Rabbit(Animal):
+#     def jump(self):
+#         print("this rabbit is jumping")
+# animal = Animal()
+# animal.eat()
+# animal.sleep()
+# rabbit = Rabbit()
+# rabbit.jump()
+# rabbit.eat()
+
+# class Fish (Animal):
+#     def swim(self):
+#         print("this fish is swiming")
+
+# class Hawk(Animal):
+#     def fly(self):
+#         print("this hawk is flying")
+# fish=Fish()
+# fish.swim()
+# fish.eat
+
+# hawk=Hawk()
+# hawk.fly()
+# -------------------------------------------------------------------------------
 # 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
