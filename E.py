@@ -711,17 +711,25 @@
 # hawk=Hawk()
 # hawk.fly()
 # -------------------------------------------------------------------------------
+# method chain
+
+# class Car:
+#     def turn_on(self):
+#         print("you started the engine")
+#         return self
+#     def drive(self):
+#         print("you drived the car")
+#         return self
+#     def brake(self):
+#         print("You hit the brakes")
+#         return self
+#     def turn_off(self):
+#         print("you stoped the car")
+#         return self
+# car=Car()
+# car.turn_on().drive().brake().turn_off()
+# -------------------------------------------------------------------------------
 # 
-
-
-
-
-
-
-
-
-
-
 
 
 
