@@ -729,22 +729,28 @@
 # car=Car()
 # car.turn_on().drive().brake().turn_off()
 # -------------------------------------------------------------------------------
+# super method
+
+# class Rectengle:
+#     def __init__(self, length, width):
+#         self.length=length
+#         self.width=width
+#         print("Initialization of the rectangle has been performed")
+# class Square(Rectengle):
+#     def __init__(self, length, width):  
+#         super().__init__(length, width)
+#         print("Initialization of the square has been performed")
+
+# class Cube(Rectengle):
+#     def __init__(self, length, width, height):
+#         super().__init__(length, width)
+#         self.height=height
+#         print(f"this cube's length, width and height is:{length}, {width}, {height}")
+
+# cube = Cube(10, 20, 30)
+# print(cube)
+# -------------------------------------------------------------------------------
 # 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
