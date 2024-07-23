@@ -773,16 +773,30 @@
 # print(car2.color)
 # print(car3.color)
 # -------------------------------------------------------------------------------
+# duck typing
+
+# class Duck:
+#     def walk(self):
+#         print("the duck is walking")
+#     def talk(self):
+#         print("the duck is croaking")
+
+# class Chicken:
+#     def walk(self):
+#         print("the chicken is walking")
+#     def talk(self):
+#         print("the chicken is Growling")
+
+# class Person():
+#     def catch(self, duck):
+#         duck.walk()
+#         duck.talk()
+# duck=Duck()
+# chicken=Chicken()
+# person=Person()
+# person.catch(duck)
+# -------------------------------------------------------------------------------
 # 
-
-
-
-
-
-
-
-
-
 
 
 
