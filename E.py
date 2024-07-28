@@ -796,18 +796,22 @@
 # person=Person()
 # person.catch(duck)
 # -------------------------------------------------------------------------------
+# Fang operator =
+
+# happy=True
+# print(happy)
+
+# print(happy := False)
+
+# foods=[]
+# while food:=input('what food do you like?') !='quit':
+    # if food == 'quit':
+    #     break
+#     foods.append(food)
+
+# print(foods)
+# -------------------------------------------------------------------------------
 # 
-
-
-
-
-
-
-
-
-
-
-
 
 
 
