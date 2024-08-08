@@ -823,23 +823,28 @@
 # say("hello")
 # say("hi")
 # -------------------------------------------------------------------------------
+# lambda   λ
+
+# def double(x):
+#     return x*2
+# print(double(10))
+
+# this is easyer 
+# double2=lambda x: x*2
+# print(double2(50))
+
+# multiply = lambda x, y: x * y
+# print(multiply(5,10))
+
+# result = lambda x: f"{x} is even" if x %2 ==0 else f"{x} is odd"
+
+# print(result(15))
+
+
+# full_name = lambda first_name, last_name: f"{first_name} {last_name}"
+# print(full_name("chan", "aldrich"))
+# -------------------------------------------------------------------------------
 # 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
