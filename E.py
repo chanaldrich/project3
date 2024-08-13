@@ -844,25 +844,30 @@
 # full_name = lambda first_name, last_name: f"{first_name} {last_name}"
 # print(full_name("chan", "aldrich"))
 # -------------------------------------------------------------------------------
-# 
+# Sort
 
+# num_list=[1,3,5,2,4]
+# print(num_list)
+# num_list.sort()
+# print(num_list)
+# num_list.sort(reverse=True)
+# print(num_list)
 
+# str_list=["cba","gfe","abc","efg"]
+# print(str_list)
+# str_list.sort()
+# print(str_list)
+# str_list.sort(reverse=True)
+# print(str_list)
 
+# students=[
+#     ("ben",170,"B"),
+#     ("jessie",150,"A"),
+#     ("jack",160,"C")
+# ]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# sorted_students=sorted(students,key=lambda student: student[1])
+# print(sorted_students)
 
 
 
