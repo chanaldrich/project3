@@ -43,68 +43,6 @@
 # turtle.hideturtle()
 # turtle.done()
 # -----------------------------------------------------------------
-# 【ACHV】: pig
-
-# import turtle
-# def draw_circle(color, x, y, radius):
-#     turtle.penup()
-#     turtle.goto(x, y)
-#     turtle.pendown()
-#     turtle.color(color)
-#     turtle.begin_fill()
-#     turtle.circle(radius)
-#     turtle.end_fill()
-
-# def draw_ear(x, y):
-#     turtle.penup()
-#     turtle.goto(x, y)
-#     turtle.pendown()
-#     turtle.color("pink")
-#     turtle.begin_fill()
-#     turtle.circle(30, steps=3)
-#     turtle.end_fill()
-
-# def draw_pig():
-#     turtle.speed(3)
-
-#     draw_circle("pink", 100, 0, -100)
-#     draw_circle("pink", 80, 0, 50)
-
-#     draw_ear(-60, 180)
-#     draw_ear(60, 180)
-
-#     draw_circle("white", 20, -30, 150)
-#     draw_circle("white", 20, 30, 150)
-#     draw_circle("black", 10, -30, 160)
-#     draw_circle("black", 10, 30, 160)
-
-
-#     draw_circle("pink", 40, 0, 100)
-#     draw_circle("black", 10, -15, 115)
-#     draw_circle("black", 10, 15, 115)
-
-#     turtle.penup()
-#     turtle.goto(-50,-200)
-#     turtle.pendown()
-#     turtle.color("pink")
-#     turtle.begin_fill()
-#     turtle.circle(25)
-#     turtle.end_fill()
-
-#     turtle.penup()
-#     turtle.goto(50,-200)
-#     turtle.pendown()
-#     turtle.color("pink")
-#     turtle.begin_fill()
-#     turtle.circle(25)
-#     turtle.end_fill()
-
-#     turtle.hideturtle()
-
-# draw_pig()
-
-# turtle.done()
-# -----------------------------------------------------------------
 # 【ACHV】: 
 
 
