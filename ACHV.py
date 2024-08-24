@@ -43,34 +43,44 @@
 # turtle.hideturtle()
 # turtle.done()
 # -----------------------------------------------------------------
+# 【ACHV】: Simultaneous equations 
+
+def solve_linear_system(a, b, c, d, e, f):
+
+    denominator = a * e - b * d
+
+    if denominator == 0:
+        return None
+
+    X = (c * e - b * f) / denominator
+    Y = (a * f - c * d) / denominator
+
+    return X, Y
+
+a = float(input("Enter the value of a: "))
+b = float(input("Enter the value of b: "))
+c = float(input("Enter the value of c: "))
+d = float(input("Enter the value of d: "))
+e = float(input("Enter the value of e: "))
+f = float(input("Enter the value of f: "))
+
+solution = solve_linear_system(a, b, c, d, e, f)
+
+if solution:
+    X, Y = solution
+    print(f"X = {X}, Y = {Y}")
+else:
+    print("No unique solution")
+
+# # # a b  c
+# # # X+3Y=5
+# # # 2X-Y=3
+# # # d  e f
+
+# # # 7X+8Y=-9
+# # # 9X-4Y=17
+# -----------------------------------------------------------------
 # 【ACHV】: 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
