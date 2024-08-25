@@ -45,32 +45,32 @@
 # -----------------------------------------------------------------
 # 【ACHV】: Simultaneous equations 
 
-def solve_linear_system(a, b, c, d, e, f):
+# def solve_linear_system(a, b, c, d, e, f):
 
-    denominator = a * e - b * d
+#     denominator = a * e - b * d
 
-    if denominator == 0:
-        return None
+#     if denominator == 0:
+#         return None
 
-    X = (c * e - b * f) / denominator
-    Y = (a * f - c * d) / denominator
+#     X = (c * e - b * f) / denominator
+#     Y = (a * f - c * d) / denominator
 
-    return X, Y
+#     return X, Y
 
-a = float(input("Enter the value of a: "))
-b = float(input("Enter the value of b: "))
-c = float(input("Enter the value of c: "))
-d = float(input("Enter the value of d: "))
-e = float(input("Enter the value of e: "))
-f = float(input("Enter the value of f: "))
+# a = float(input("Enter the value of a: "))
+# b = float(input("Enter the value of b: "))
+# c = float(input("Enter the value of c: "))
+# d = float(input("Enter the value of d: "))
+# e = float(input("Enter the value of e: "))
+# f = float(input("Enter the value of f: "))
 
-solution = solve_linear_system(a, b, c, d, e, f)
+# solution = solve_linear_system(a, b, c, d, e, f)
 
-if solution:
-    X, Y = solution
-    print(f"X = {X}, Y = {Y}")
-else:
-    print("No unique solution")
+# if solution:
+#     X, Y = solution
+#     print(f"X = {X}, Y = {Y}")
+# else:
+#     print("No unique solution")
 
 # # # a b  c
 # # # X+3Y=5
@@ -80,39 +80,58 @@ else:
 # # # 7X+8Y=-9
 # # # 9X-4Y=17
 # -----------------------------------------------------------------
+# 【ACHV】: Simultaneous Equations Three Variables
+
+# def solve_three_variable_system(a, b, c, d, e, f, g, h, i, j, k, l):
+
+#     D = a*(f*k - g*j) - b*(e*k - g*i) + c*(e*j - f*i)
+
+#     if D == 0:
+#         return "No unique solution"
+
+#     D_X = d*(f*k - g*j) - b*(h*k - g*l) + c*(h*j - f*l)
+#     D_Y = a*(h*k - g*l) - d*(e*k - g*i) + c*(e*l - h*i)
+#     D_Z = a*(f*l - h*j) - b*(e*l - h*i) + d*(e*j - f*i)
+
+#     X = D_X / D
+#     Y = D_Y / D
+#     Z = D_Z / D
+
+#     return X, Y, Z
+
+# a = float(input("Enter the value of a: "))
+# b = float(input("Enter the value of b: "))
+# c = float(input("Enter the value of c: "))
+# d = float(input("Enter the value of d: "))
+# e = float(input("Enter the value of e: "))
+# f = float(input("Enter the value of f: "))
+# g = float(input("Enter the value of g: "))
+# h = float(input("Enter the value of h: "))
+# i = float(input("Enter the value of i: "))
+# j = float(input("Enter the value of j: "))
+# k = float(input("Enter the value of k: "))
+# l = float(input("Enter the value of l: "))
+
+# solution = solve_three_variable_system(a, b, c, d, e, f, g, h, i, j, k, l)
+
+# if isinstance(solution, str):
+#     print(solution)
+# else:
+#     X, Y, Z = solution
+#     print(f"X = {X}, Y = {Y}, Z = {Z}")
+
+# a    b    c    d
+# 1x + 6y - 6z = -11
+# e    f    g    h
+# 3x + 3y + 3z = 42
+# i    j    k    l
+# 4x + 6y + 5z = 65
+
+# 6x + 1y + 4z = 38
+# 1x + 2y - 1z = 11
+# 4x + 5y + 6z = 80
+# -----------------------------------------------------------------
 # 【ACHV】: 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
