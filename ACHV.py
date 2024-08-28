@@ -131,26 +131,32 @@
 # 1x + 2y - 1z = 11
 # 4x + 5y + 6z = 80
 # -----------------------------------------------------------------
+# 【ACHV】: Law of Cosine
+
+# import math
+
+# def caoculate_third_side(a, b, d):
+#     d_rad = math.radians(d)
+
+#     c = math.sqrt(a**2 + b**2 - 2 * a * b *  math.cos(d_rad))
+
+#     c = round(c, 2)
+
+#     return c
+
+# a = float(input("Enter the length of side of a: "))
+# b = float(input("Enter the length of side of b: "))
+# d = float(input("Enter the angle between side of a and b(in degrees): "))
+
+# c = caoculate_third_side(a, b, d)
+
+# print(f"The length of the third side c is: {c}")
+
+# a=5  b=8 d=60
+
+# a=5  b=7 d=21.8
+# -----------------------------------------------------------------
 # 【ACHV】: 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
