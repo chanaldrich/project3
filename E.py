@@ -868,27 +868,28 @@
 
 # sorted_students=sorted(students,key=lambda student: student[1])
 # print(sorted_students)
+# -------------------------------------------------------------------------------
+# map
 
+# store = [
+#     ('shirt', 300),
+#     ('pants', 600),
+#     ('jacket', 1600),
+#     ('socks', 200)
+# ]
 
+# to_ntd = lambda data: (data[0], data[1] *30)
 
+# store_euros = list(map(to_ntd, store))
+# print(store_euros)
 
+# to_usd = lambda data : (data [0], round(data[1] / 30))
+# store_usds = list (map(to_usd, store))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# for item in store_usds :
+#     print(item)
+# -------------------------------------------------------------------------------
+# 
 
 
 
