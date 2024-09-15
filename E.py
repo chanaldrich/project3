@@ -889,50 +889,67 @@
 # for item in store_usds :
 #     print(item)
 # -------------------------------------------------------------------------------
+# filter
+
+# friends = [
+#     ("bob", 18),
+#     ("steven", 17),
+#     ("michael", 19),
+#     ("susan", 16)
+# ]
+
+# age_filter = lambda data: data[1] >= 18
+
+# can_drink_wine = list(filter(age_filter, friends))
+# for friend in can_drink_wine:
+#     print(friend[0])
+#     print(friend[1])
+# -------------------------------------------------------------------------------
+# list comprehension
+
+# def square(x):
+#     return x*x
+# list = []
+# for i in range(1,11):
+#     list.append(square(i))
+# print(list)
+
+# squares = [i * i for i in range(1, 11)]
+# print("list comprehension")
+# print(squares)
+
+# grades = [100, 90, 66, 80, 46, 29, 88, 59]
+# passed_grades = [g for g in grades if g >= 60]
+# print(passed_grades)
+# -------------------------------------------------------------------------------
+# dictionary comprehension
+
+# cities_in_f ={'LA': 120, 'New York': 65, 'Chicago': 50, "Miami": 150}
+
+# cities_in_c ={key : (value - 32) * 5/9 for key, value in  cities_in_f.items()}
+# print(cities_in_f)
+# print(cities_in_c)
+
+# weather={
+#     "China": "sunny", "Taiwan":"sunny","Japan":"",  "Amarica":"raining", "Russia":"raining"
+# }
+# sunny_weather = {key: value for key, value in weather.items()if value=='sunny'}
+
+# print(sunny_weather)
+
+# cities_in_f ={'LA': 120, 'New York': 65, 'Chicago': 50, "Miami": 150}
+
+# def check_temp(value):
+#     if value >= 70:
+#         return 'hot'
+#     elif value >= 40:
+#         return 'warm'
+#     else:
+#         return 'cold'
+# description_cities = {key: check_temp(value) for key, value in cities_in_f.items()}
+# print(description_cities)
+# -------------------------------------------------------------------------------
 # 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
