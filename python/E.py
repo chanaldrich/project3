@@ -949,19 +949,30 @@
 # description_cities = {key: check_temp(value) for key, value in cities_in_f.items()}
 # print(description_cities)
 # -------------------------------------------------------------------------------
-# 
+# zip function
 
+usernames=['Bob', 'Steven', 'Sam']
+passwords=['123', '321', '555']
+dates=['1998-02-05', '1998-03-05', '1998-05-05']
 
+users=zip(usernames, passwords, dates)
+print(users)
+for i in users:
+    print(i)
 
+#  OR
 
+print( list(users) )
 
+#  OR
 
+# user_dict=dict(users)
+# print(user_dict) #key -> username
 
+# #  OR ADD 
 
-
-
-
-
+# for key, value in user_dict.items():
+    # print(key + ":" + value)
 
 
 
