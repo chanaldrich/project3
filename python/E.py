@@ -951,18 +951,18 @@
 # -------------------------------------------------------------------------------
 # zip function
 
-usernames=['Bob', 'Steven', 'Sam']
-passwords=['123', '321', '555']
-dates=['1998-02-05', '1998-03-05', '1998-05-05']
+# usernames=['Bob', 'Steven', 'Sam']
+# passwords=['123', '321', '555']
+# dates=['1998-02-05', '1998-03-05', '1998-05-05']
 
-users=zip(usernames, passwords, dates)
-print(users)
-for i in users:
-    print(i)
+# users=zip(usernames, passwords, dates)
+# print(users)
+# for i in users:
+#     print(i)
 
 #  OR
 
-print( list(users) )
+# print( list(users) )
 
 #  OR
 
