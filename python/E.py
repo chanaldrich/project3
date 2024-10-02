@@ -973,20 +973,27 @@
 
 # for key, value in user_dict.items():
     # print(key + ":" + value)
+# -------------------------------------------------------------------------------
+# Module:Time
 
+# import time
+# print(time.ctime())
+# print(time.time())
+# local_time=time.localtime()
+# print(local_time)                   
+# print ('formatted time:', time.strftime("%Y-%m-%d %H:%M:%S", local_time))
 
+# time_string = "2024-10-2 8:34:50"
+# time_object = time.strptime(time_string, "%Y-%m-%d %H:%M:%S")
+# print(time_object)
+# -------------------------------------------------------------------------------
+# Python Package Index
 
-
-
-
-
-
-
-
-
-
-
-
+# pip install -upgrade pip
+# pip list
+# pip install pygame (any thing)
+# pip list --outdated
+# pip install redis -- upgrade
 
 
 
