@@ -156,30 +156,21 @@
 
 # a=5  b=7 d=21.8
 # -----------------------------------------------------------------
+# 【ACHV】: squared math
+
+# def calculate_expression(a, b, c, d):
+#     result = (a + b) * (c ** 2) +d
+#     return round(result, 2)
+
+# result = calculate_expression(1, 2, 3, 5)
+# print(result)
+# -----------------------------------------------------------------
+# 【ACHV】: the data type of a + b
+
+# result = 4 + 6.5
+# print(type(result))
+# -----------------------------------------------------------------
 # 【ACHV】: 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
