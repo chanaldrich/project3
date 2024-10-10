@@ -170,52 +170,108 @@
 # result = 4 + 6.5
 # print(type(result))
 # -----------------------------------------------------------------
+# 【ACHV】: Use input() to read a value and store it in variable a, and finally use the print command to print out ''My lucky number v is ▯''.
+
+# a = input("please enter avalue:")
+# print(f"my lucky number is {a}")
+
+# -----------------------------------------------------------------
+# 【ACHV】: Take out every character of ''Python''.
+
+# string = "python"
+# for char in string:
+#     print(char)
+# chars = [char for char in string]
+# print(chars)
+
+# -----------------------------------------------------------------
+# 【ACHV】: Take out the three words from ''I love python''.
+
+# sentence = "i love python"
+# words = sentence.split()
+
+# first_three_words = words[:3]
+# print(first_three_words)
+
+# -----------------------------------------------------------------
+# 【ACHV】: Use loops to print l love you so so so…much. so to be repeated 100 times!
+
+# repeat_so = 'so ' * 100
+
+# print(f"i love you {repeat_so}much.")
+# -----------------------------------------------------------------
+# 【ACHV】: Use f_string to output 123.456789 to 3 decimal places.
+
+# number = 123.456789
+# formatted_number = f"{number:.3f}"
+# print(formatted_number)
+# -----------------------------------------------------------------
+# 【ACHV】: Represent 0.25 as 25% using f_string.
+
+# number = 0.25
+# formatted_percentage = f"{number:.0%}"
+# print(formatted_percentage)
+# -----------------------------------------------------------------
+# 【ACHV】: Calculate the maximum, minimum and average scores, and sort the scores from small to large.
+
+# scores = [68, 72, 84, 96, 88]
+
+# max_score = max(scores)
+# min_score = min(scores)
+# average_score = sum (scores) / len(scores)
+
+# sorted_score = sorted(scores)
+
+# print(f"highest score:{max_score}")
+# print(f"lowest score:{min_score}")
+# print(f"average score:{average_score}")
+# print(f"sorted score:{sorted_score}")
+# -----------------------------------------------------------------
+# 【ACHV】: Change the separator symbol into a semicolon
+
+# subjects = 'Chinese, English, Math, Social studies, Nature and technology'
+
+# formatted_subjects =subjects.replace(',', '、')
+# print(formatted_subjects)
+# -----------------------------------------------------------------
+# 【ACHV】: Let the user enter "Please enter seconds = ▯", and then convert the seconds into ▯ seconds = ▯ hours ▯ minutes ▯ seconds
+
+# total_seconds= int(input("please enter the number of seconds:"))
+
+# hours = total_seconds //3600
+# minutes = (total_seconds % 3600) //60
+# seconds = total_seconds % 60
+
+# print (f'{total_seconds}seconds={hours}hours {minutes}minutes {seconds}seconds')
+# -----------------------------------------------------------------
+# 【ACHV】: Enter minutes, seconds, kilometers, and calculate the runner's average mile per hour speed.
+
+# minutes = float(input("please enter the score:"))
+# seconds =float(input("please the number of seconds:"))
+# kilometers=float(input("please the number of kilometers:"))
+
+# total_time_hours = minutes / 60 + seconds / 3600
+
+# average_speed_kmh = kilometers / total_time_hours
+# average_speed_mph=average_speed_kmh/1.6
+
+# print(f"Average miles per hour:{average_speed_mph} miles per hour")
+# -----------------------------------------------------------------
+# 【ACHV】: The current time displayed is ▯ hours ▯ minutes ▯ seconds.
+
+# import time
+
+# current_time_seconds = time.time()
+
+# local_time = time.localtime(current_time_seconds + 8 * 3600) # add 8 hours
+
+# hours = local_time.tm_hour
+# minutes = local_time.tm_min
+# seconds = local_time.tm_sec
+
+# print(f"The current time is {hours}hours {minutes}minutes {seconds}seconds")
+# -----------------------------------------------------------------
 # 【ACHV】: 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
