@@ -5,6 +5,49 @@
 #         print(f"{i} * {j} = {i * j:2}", end="    ")
 #     print()
 # -----------------------------------------------------------------
+# 【ACHV】: the turtle
+# square
+
+# import turtle
+# window = turtle.Screen
+# john = turtle.Turtle()
+
+# john.forward(100)
+# john.right(90)
+# john.forward(100)
+# john.right(90)
+# john.forward(100)
+# john.right(90)
+# john.forward(100)
+# john.right(90)
+# or (its the same)
+# for i in [0,1,2,3]:
+    # john.forward(100)
+    # john.right(90)
+# or (its the same)
+# for i in range(4):
+#     john.forward(100)
+#     john.right(90)
+# window.exitonclick()
+# --------------------------------------
+# diffuse square
+
+
+
+
+
+
+# --------------------------------------
+
+
+
+
+
+
+
+# --------------------------------------
+
+# -----------------------------------------------------------------
 # 【ACHV】: car 
 # import turtle
 
@@ -271,27 +314,46 @@
 
 # print(f"The current time is {hours}hours {minutes}minutes {seconds}seconds")
 # -----------------------------------------------------------------
-# 【ACHV】: 
+# 【ACHV】: Conversion time
 
+# seconds = eval (input("please enter the seconds="))
 
+# rMinutes = seconds//60
+# rSeconds = seconds % 60
+# rHours = rMinutes // 60
+# rMinutes2 = rMinutes-rHours*60
 
+# print(seconds,"=",rHours,"hours",rMinutes2,"Minutes",rSeconds,"Seconds")
+# -----------------------------------------------------------------
+# 【ACHV】: runner
+# rMinutes=eval(input("please put in a num of minutes="))
+# rSeconds=eval(input("please put in a num of second="))
+# rKilometers=eval(input("please put in a num of Kilometers="))
 
+# rMinutes=rSeconds/60+rMinutes
+# rHours=rMinutes/60
+# rMiles=rKilometers/1.6
+# rSpeed=rMiles/rHours
 
+# print("this runner's average miles per hour speed is :", rSpeed)
+# -----------------------------------------------------------------
+# 【ACHV】: Current Time
 
+# import time
+# currentT=time.time()
+# totalS = int(currentT)
+# totalM = totalS//60
+# remainS = totalS%60
 
+# totalH = totalM // 60
+# remainM = totalM % 60
 
+# remainH = (totalH + 8) % 24
 
+# print("the current time is", remainH,"hours", remainM,"minutes", remainS,"seconds")
 
-
-
-
-
-
-
-
-
-
-
+# -----------------------------------------------------------------
+# 【ACHV】: the turtle
 
 
 
