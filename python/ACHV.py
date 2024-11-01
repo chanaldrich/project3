@@ -9,7 +9,7 @@
 # square
 
 # import turtle
-# window = turtle.Screen
+# window = turtle.Screen()
 # john = turtle.Turtle()
 
 # john.forward(100)
@@ -32,20 +32,52 @@
 # --------------------------------------
 # diffuse square
 
+# import turtle
+# window = turtle.Screen()
+# john= turtle.Turtle()
 
+# for i in range(1,21):
+#     john.forward(i*10)
+#     john.right(90)
 
-
-
-
+# window.exitonclick()
 # --------------------------------------
+# rotated squares
 
+# import turtle
+# window = turtle.Screen()
+# john= turtle.Turtle()
 
+# for i in range (12):
+#     for j in range (4):
+#         john.forward(100)
+#         john.right(90)  
+#     john.right(30)
 
-
-
-
-
+# window.exitonclick()
 # --------------------------------------
+# parallel square(1)
+
+# import turtle
+# window = turtle.Screen()
+# window.setup(480, 360)
+
+# john= turtle.Turtle()
+# john.penup()
+# john.goto(-140, 20)
+
+# for i in range(6):
+#     john.pendown()
+#     for j in range(4):
+#         john.forward(30)
+#         john.right(90)
+#     john.penup()
+#     john.forward(60)
+
+# window.exitonclick()
+# --------------------------------------
+# 
+
 
 # -----------------------------------------------------------------
 # 【ACHV】: car 
