@@ -46,7 +46,7 @@
 
 # import turtle
 # window = turtle.Screen()
-# john= turtle.Turtle()
+# john = turtle.Turtle()
 
 # for i in range (12):
 #     for j in range (4):
@@ -76,7 +76,102 @@
 
 # window.exitonclick()
 # --------------------------------------
+# parallel square(2)
+
+# import turtle
+
+# def draw_square(t, size):
+#     t.pendown()
+#     for i in range(4):
+#         t.forward(size)
+#         t.right(90)
+#     t.penup()
+
+# window = turtle.Screen()
+# john = turtle.Turtle()
+
+# for i in range(6):
+#     draw_square(john, 30)
+#     john.forward(50)
+
+# window.exitonclick()
+# --------------------------------------
+# enlarging squares
+
+# import turtle
+
+# def draw_square(t, size):
+#     t.pendown()
+#     for i in range(4):
+#         t.forward(size)
+#         t.right(90)
+#     t.penup()
+
+# window = turtle.Screen()
+# window.setup(480, 360)
+# john = turtle.Turtle()
+# john.penup()
+# john.goto(-120,80)
+
+# draw_square(john, 50)
+# draw_square(john, 100)
+# draw_square(john, 150)
+# draw_square(john, 200)
+
+# window.exitonclick()
+# --------------------------------------
+# randomly draw stars
+
+# import turtle
+# from random import randint
+
+# def draw_star(t, size):
+#     t.pendown()
+#     for i in range(5):
+#         t.forward(size)
+#         t.right(144)
+#     t.penup()
+
+# window = turtle.Screen()
+# window.setup(480, 360)
+# john = turtle.Turtle()
+# john.speed(8)
+
+# for i in range(30):
+#     john.penup()
+#     x = randint(-200,200)
+#     y = randint(-160, 160)
+#     john.goto(x, y)
+#     draw_star(john, 50)
+
+# window.exitonclick()
+# --------------------------------------
 # 
+
+
+
+
+
+
+
+
+# --------------------------------------
+# 
+
+
+
+
+
+
+
+
+# --------------------------------------
+# 
+
+
+
+
+
 
 
 # -----------------------------------------------------------------
