@@ -146,34 +146,38 @@
 
 # window.exitonclick()
 # --------------------------------------
-# 
+# clock-like
 
+# import turtle
+# window = turtle.Screen()
+# john = turtle.Turtle()
+# john.penup()
+# john.shape("turtle")
 
+# for i in range(12):
+#     john.forward(100)
+#     john.stamp()
+#     john.backward(100)
+#     john.right(30)
 
-
-
-
-
-
+# window.exitonclick()
 # --------------------------------------
-# 
+# regular polygon
 
+# import turtle
+# window = turtle.Screen()
+# john = turtle.Turtle()
+# john.penup()
+# john.goto(-50, 180)
+# john.speed(8)
+# john.pendown()
 
+# for i in range(10):
+#     for j in range(i+3):
+#         john.forward(100)
+#         john.right(360/(i+3))
 
-
-
-
-
-
-# --------------------------------------
-# 
-
-
-
-
-
-
-
+# window.exitonclick()
 # -----------------------------------------------------------------
 # 【ACHV】: car 
 # import turtle
