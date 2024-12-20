@@ -484,83 +484,167 @@
 # print("the current time is", remainH,"hours", remainM,"minutes", remainS,"seconds")
 
 # -----------------------------------------------------------------
-# 【ACHV】: the turtle
+# 【ACHV】: cool lil' bee game
+
+# import pygame
+# import random
 
 
+# pygame.init()
 
 
+# screen_width = 800
+# screen_height = 600
+# screen = pygame.display.set_mode((screen_width, screen_height))
+# pygame.display.set_caption("little bee game")
 
+# clock = pygame.time.Clock()
 
+# WHITE = (225, 225, 225)
+# YELLOW = (225, 225, 0)
+# BLACK = (0, 0, 0)
 
+# class Bee(pygame.sprite.Sprite):
+#     def __init__(self):
+#         super().__init__()
+#         self.image = pygame.Surface((50,50))
+#         self.image.fill(YELLOW)
+#         self.rect = self.image.get_rect()
+#         self.rect.center = (screen_width //2, screen_height // 2)
+#         self.speed = 5
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#     def update(self):
+#         keys = pygame.key.get_pressed()
+#         if keys[pygame.K_LEFT]:
+#             self.rect.x -=self.speed
+#         if keys[pygame.K_RIGHT]:
+#             self.rect.x +=self.speed
+#         if keys[pygame.K_UP]:
+#             self.rect.y -=self.speed
+#         if keys[pygame.K_DOWN]:
+#             self.rect.y +=self.speed
+
+#         if self.rect.left < 0:
+#             self.rect.left = 0
+#         if self.rect.right > screen_width:
+#             self.rect.right = screen_width
+#         if self.rect.top < 0:
+#             self.rect.top = 0
+#         if self.rect.bottom > screen_height:
+#             self.rect.bottom = screen_height
+
+
+# class Enemy(pygame.sprite.Sprite):
+#     def __init__(self):
+#         super().__init__()
+#         self.image = pygame.Surface((30,30))
+#         self.image.fill(BLACK)
+#         self.rect = self.image.get_rect()
+#         self.rect.x = random.randint(0, screen_width - self.rect.width)
+#         self.rect.y = random.randint(-100, -40)
+#         self.speed = random.randint(3,6)
+
+#     def update(self):
+#         self.rect.y += self.speed
+#         if self.rect.top > screen_height:
+#             self.rect.x = random.randint(0, screen_width - self.rect.width)
+#             self.rect.y = random.randint(-100, -40)
+
+# all_sprites = pygame.sprite.Group()
+# enemies = pygame.sprite.Group()
+
+# bee = Bee()
+# all_sprites.add(bee)
+
+# for _ in range(5):
+#     enemy = Enemy()
+#     all_sprites.add(enemy)
+#     enemies.add(enemy)
+
+# score = 0
+# font = pygame.font.Font(None, 36)
+
+# running = True
+# while running:
+#     clock.tick(60)
+
+#     for event in pygame.event.get():
+#         if event.type == pygame.QUIT:
+#             running = False
+
+#     all_sprites.update()
+
+
+#     if pygame.sprite.spritecollide(bee, enemies, True):
+#         print(f"GAME OVER! THE SCORE IS: {score}")
+#         running = False
+
+#     score += 1
+
+#     screen.fill(WHITE)
+
+#     score_text = font.render(f"the score: {score}", True, (0,0,0))
+#     screen.blit(score_text,(10, 10))
+
+#     all_sprites.draw(screen)
+
+#     pygame.display.flip()
+
+# screen.fill(WHITE)
+# game_over_text = font.render(f"GAME OVER! THE SCORE IS: {score}", True, (225, 0, 0))
+# screen.blit(game_over_text, (screen_width // 2 - game_over_text.get_width() // 2, screen_height // 2))
+# pygame.display.flip()
+# pygame.time.wait(2000)
+
+# pygame.quit()
+
+# -----------------------------------------------------------------
+# 【ACHV】: ladder game
+
+import os
+
+MAX_LADDER = 50
+
+player_position = 0
+
+def print_ladder(player_position):
+    """Display the ladder and the player's position"""
+    os.system('cls' if os.name == 'nt' else 'clear')
+    print("Ladder Climbing Game")
+    print(f"Currently on ladder {player_position}")
+    print("=" * (MAX_LADDER +10))
+    for i in range(MAX_LADDER, -1, -1):
+        if i == player_position:
+            print(f"  Player is on ladder {i} <--")
+        else:
+            print(f"Ladder {i}")
+    print("=" * (MAX_LADDER +10))
+    print("Press 'W' to climb up, 'S' to climb down, 'Q' to quit")
+def move_player(command):
+    """Change the player's position based on the command"""
+    global player_position
+    if command.lower() == 'w' and player_position < MAX_LADDER:
+        player_position += 1
+    elif command.lower() == 's' and player_position > 0:
+        player_position -= 1
+    elif command.lower() == 'q':
+        return False
+    return True
+
+def main():
+    """Maim game loop"""
+    global player_position
+    while True:
+        print_ladder(player_position)
+        command = input ("Enter your command: ")
+        if not move_player(command):
+            print("Game Over!")
+            break
+
+if __name__ == "__main__":
+    main()
+
+# no vitory and traps yet
 
 
 
