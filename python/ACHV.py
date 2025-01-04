@@ -601,62 +601,83 @@
 # -----------------------------------------------------------------
 # 【ACHV】: ladder game
 
-import os
+# import os
 
-MAX_LADDER = 50
+# MAX_LADDER = 50
 
-player_position = 0
+# player_position = 0
 
-def print_ladder(player_position):
-    """Display the ladder and the player's position"""
-    os.system('cls' if os.name == 'nt' else 'clear')
-    print("Ladder Climbing Game")
-    print(f"Currently on ladder {player_position}")
-    print("=" * (MAX_LADDER +10))
-    for i in range(MAX_LADDER, -1, -1):
-        if i == player_position:
-            print(f"  Player is on ladder {i} <--")
-        else:
-            print(f"Ladder {i}")
-    print("=" * (MAX_LADDER +10))
-    print("Press 'W' to climb up, 'S' to climb down, 'Q' to quit")
-def move_player(command):
-    """Change the player's position based on the command"""
-    global player_position
-    if command.lower() == 'w' and player_position < MAX_LADDER:
-        player_position += 1
-    elif command.lower() == 's' and player_position > 0:
-        player_position -= 1
-    elif command.lower() == 'q':
-        return False
-    return True
+# def print_ladder(player_position):
+#     """Display the ladder and the player's position"""
+#     os.system('cls' if os.name == 'nt' else 'clear')
+#     print("Ladder Climbing Game")
+#     print(f"Currently on ladder {player_position}")
+#     print("=" * (MAX_LADDER +10))
+#     for i in range(MAX_LADDER, -1, -1):
+#         if i == player_position:
+#             print(f"  Player is on ladder {i} <--")
+#         else:
+#             print(f"Ladder {i}")
+#     print("=" * (MAX_LADDER +10))
+#     print("Press 'W' to climb up, 'S' to climb down, 'Q' to quit")
+# def move_player(command):
+#     """Change the player's position based on the command"""
+#     global player_position
+#     if command.lower() == 'w' and player_position < MAX_LADDER:
+#         player_position += 1
+#     elif command.lower() == 's' and player_position > 0:
+#         player_position -= 1
+#     elif command.lower() == 'q':
+#         return False
+#     return True
 
-def main():
-    """Maim game loop"""
-    global player_position
-    while True:
-        print_ladder(player_position)
-        command = input ("Enter your command: ")
-        if not move_player(command):
-            print("Game Over!")
-            break
+# def main():
+#     """Maim game loop"""
+#     global player_position
+#     while True:
+#         print_ladder(player_position)
+#         command = input ("Enter your command: ")
+#         if not move_player(command):
+#             print("Game Over!")
+#             break
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
 
 # no vitory and traps yet
 
+# -----------------------------------------------------------------
+# 【ACHV】: a number guessing game
 
+# import random
 
+# def guess_number_game():
+#     print("Welcome to the Guess the Number game!")
+#     print("i have selected a number between 1 and 100. Try to guess what it is!")
 
+#     number_to_guess = random.randint(1,100)
+#     attempts = 0
 
+#     while True:
+#         guess = input("Enter your guess: ")
 
+#         if not guess.isdigit():
+#             print("Please enter a valid number!")
+#             continue
 
+#         guess = int(guess)
+#         attempts += 1
 
+#         if guess < number_to_guess:
+#             print("Too low! Try again.")
+#         elif guess > number_to_guess:
+#             print("Too high! Try again.")
+#         else:
+#             print(f"Congratulations! you guessed the right number: {number_to_guess}.")
+#             print(f"You took {attempts} attempts.")
+#             break
 
-
-
-
+# guess_number_game()
 
 
 
