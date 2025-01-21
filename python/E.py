@@ -995,82 +995,124 @@
 # pip list --outdated
 # pip install redis -- upgrade
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# -------------------------------------------------------------------------------
+# Data Types and If Else (A new lesson)
+
+# print("triangle:")
+# print("*")
+# print("**")
+# print("***")
+# print("****")
+# print("*****")
+
+# print("triangle:")
+# print("*" * 1)
+# print("*" * 2)
+# print("*" * 3)
+# print("*" * 4)
+# print("*" * 5)
+
+# ----------------------------------------------
+
+# allowance = int(float(input("x = ")))
+
+# if allowance >= 70:
+#     allowance -= 70
+# if allowance >= 30:
+#     allowance -= 30
+# if allowance >= 150:
+#     allowance -= 150
+
+# print("Total residuel is" , allowance)
+
+# juiceprice = 70
+# breadprice = 30
+# notbookprice = 150
+
+# allowance = int(float(input("x = ")))
+
+# if allowance >= juiceprice:
+#     allowance -= juiceprice
+# if allowance >= breadprice:
+#     allowance -= breadprice
+# if allowance >= notbookprice:
+#     allowance -= notbookprice
+
+# print("Total residuel is" , allowance)
+
+# num = input('FizzBuzz! please enter a number between 0 and 100 :\n')
+# # convert input into float then integer
+# num = int(float(num))
+
+# # first way to do this
+# if (0 < num) and (num < 100):
+#     if(num % 3 == 0) and (num % 5 == 0):
+#         print("FizzBuzz")
+#     elif(num % 3 == 0):
+#         print("Fizz")
+#     elif(num % 5 == 0):
+#         print("Buzz")
+#     else:
+#         print("Out")
+
+# second way
+
+# if (0 > num) or (num > 100):
+#     print("Out of range!")
+#     if(num % 3 == 0) and (num % 5 == 0):
+#         print("FizzBuzz")
+#     elif(num % 3 == 0):
+#         print("Fizz")
+#     elif(num % 5 == 0):
+#         print("Buzz")
+#     else:
+#         print("Whoops")
+
+# third way
+# whithin_range = True
+# if (0 > num) or (num > 100):
+#     whithin_range = False
+#     print("Out of range")
+
+# if whithin_range:
+#     if(num % 3 == 0) and (num % 5 == 0):
+#         print("FizzBuzz")
+#     elif(num % 3 == 0):
+#         print("Fizz")
+#     elif(num % 5 == 0):
+#         print("Buzz")
+#     else:
+#         print("Whoops")
+
+#----------------------------------------------
+
+# rate1 = float(input("Please input the first movie's rating: "))
+# rate2 = float(input("Please input the second movie's rating: "))
+# rate3 = float(input("Please input the third movie's rating: "))
+# temp = 0
+
+# if (0 <= rate1) and (rate1<=10) and (rate2>=0) and (rate2<=10) and (0<=rate3) and (rate3<=10):
+
+#     if rate1 > rate2:
+#         temp = rate1
+#         rate1 = rate2
+#         rate2 = temp
+    
+#     if rate1 > rate2:
+#         rate1, rate2 = rate2, rate1
+#     if rate1 > rate3:
+#         rate1, rate3 = rate3, rate1
+#     if rate2 > rate3:
+#         rate2, rate3 = rate3, rate2
+
+#     print(rate3, rate2, rate1)
+#     print(f"max: {rate3}")
+#     print(f"max: {rate1}")
+# else:
+#     print("rate must be between 0 and 10")
+
+# -------------------------------------------------------------------------------
+# 
 
 
 
